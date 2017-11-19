@@ -1,0 +1,23 @@
+{
+  "name": "super-galactic-age-calculator",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Elliot Burin <eburin2@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
