@@ -8,7 +8,7 @@ export class Age {
   }
 }
 
-ageInSeconds(age) {
-  let secondsInYear = (age * 31536000);
-  return secondsInYear;
-}
+// ageInSeconds(age) {
+//   let secondsInYear = (age * 31536000);
+//   return secondsInYear;
+// }
