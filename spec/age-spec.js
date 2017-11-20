@@ -1,7 +1,15 @@
 import { Age } from "./../js/age.js";
 
-it('should calculate the age of someone into seconds', function() {
-    let age = new Age(36);
-    expect(newAge.ageInSeconds(36)).toEqual(1136050272);
+describe('Age', function(){
+  let trialAge;
 
-  });
+  // beforeEach(function() {
+  //   // set up before each test.
+  // });
+
+  it('it will calculate your age into seconds', function(){
+    trialAge = new Age(36);
+    expect(trialAge.ageInSeconds).toEqual(1135296000);
+  })
+
+})
