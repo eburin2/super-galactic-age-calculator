@@ -1,3 +1,4 @@
+
 export class Age {
   constructor(inputtedAge) {
     this.age = inputtedAge;

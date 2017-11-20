@@ -2,10 +2,10 @@
 #### By Elliot Burin
 
 ## Description
-_This is an application that will determine if a potential haiku meets haiku line and syllable standards using Javascript. The user will enter their "haiku" and click submit, then a text display will inform of whether it meets the requirements._
+_This application will convert earth years into seconds.  It will also convert Earth years into Mercurian, Martian, Venusian, and Jovian years._
 
 ## Setup/Installation
-* Make sure you have [Node](https://nodejs.org/en/download/) and the npm (Node package manager, which should come automatically) installed.
+*
 
 ## Specs
 |Behavior | Input | Output|
@@ -15,7 +15,6 @@ _This is an application that will determine if a potential haiku meets haiku lin
 | replace | the | text |
 
 ## Known Bugs
-AFAIK, no bugs are known. However, there so many exceptions in the English language, so likely they haven't been accounted for.
 
 ## Contact
 If you have any questions, comments, or concerns, please contact me at eburin2@gmail.com
