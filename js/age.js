@@ -9,4 +9,7 @@ export class Age {
     this.ageInJovianYears = inputtedAge * 11.86;
   }
 
+  var ageInSeconds = (60 * (60 * (24 * (365 * (parseToInt(userAge))))))
+  return ageInSeconds;
+
 }
