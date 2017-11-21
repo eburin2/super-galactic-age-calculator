@@ -8,10 +8,4 @@ export class Age {
     this.ageInJovianYears = inputtedAge * 11.86;
   }
 
-  getAgeInSeconds(){
-    let ageInSec = (this.age * 31536000);
-    return this.getAge(ageInSec);
-
-}
-
 }
