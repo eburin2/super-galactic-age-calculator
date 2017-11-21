@@ -1,4 +1,3 @@
-
 export class Age {
   constructor(inputtedAge) {
     this.age = inputtedAge;
@@ -9,7 +8,10 @@ export class Age {
     this.ageInJovianYears = inputtedAge * 11.86;
   }
 
-  var ageInSeconds = (60 * (60 * (24 * (365 * (parseToInt(userAge))))))
-  return ageInSeconds;
+  getAgeInSeconds(){
+    let ageInSec = (this.age * 31536000);
+    return this.getAge(ageInSec);
+
+}
 
 }

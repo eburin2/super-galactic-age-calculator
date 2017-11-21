@@ -4,3 +4,8 @@ textarea {
   margin-left: 400px;
   border: 3px solid black;
 }
+
+#output {
+  font-size: 50px;
+  text-align: center;
+}
