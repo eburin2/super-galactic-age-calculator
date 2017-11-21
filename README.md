@@ -1,4 +1,4 @@
-# Space Age Galactic Calculator
+# Super Galactic Age Calculator
 #### By Elliot Burin
 
 ## Description
@@ -16,7 +16,9 @@ _This application should convert earth years into seconds.  It should also conve
 |It should calculate your age in Venusian years    | 36  | 22.32 Venusian years  |
 |It should calculate your age in Martian years    | 36  | 67.68 Martian years  |
 |It should calculate your age in Jovian years   | 36  |  22.96 Jovian years |
+
 ## Known Bugs
+
 
 ## Contact
 If you have any questions, comments, or concerns, please contact me at eburin2@gmail.com
