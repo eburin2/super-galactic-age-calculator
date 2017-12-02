@@ -2,27 +2,28 @@ export class Age {
   constructor(inputtedAge) {
     this.age = inputtedAge;
   }
- ageInSeconds() {
+
+  ageInSeconds(inputtedAge) {
     return this.age * 31536000;
   }
 
- getDifference(startDate, endDate) {
+  getDifference(startDate, endDate) {
     return (endDate.getTime() - startDate.getTime())/1000;
   }
 
- ageInMerurianYears() {
+  ageInMerurianYears(inputtedAge) {
    return this.age * 0.24;
- }
+  }
 
- ageInVenusianYears() {
+  ageInVenusianYears(inputtedAge) {
    return this.age * 0.62;
- }
+  }
 
- ageInMartianYears() {
+  ageInMartianYears(inputtedAge) {
    return this.age * 1.88;
- }
+  }
 
- ageInJovianYears() {
+  ageInJovianYears(inputtedAge) {
    return this.age * 11.86;
- }
-}
+  }
+  }
