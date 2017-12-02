@@ -1,11 +1,28 @@
 export class Age {
   constructor(inputtedAge) {
     this.age = inputtedAge;
-    this.ageInSeconds = inputtedAge * 31536000;
-    this.ageInMerurianYears = inputtedAge * 0.24;
-    this.ageInVenusianYears = inputtedAge * 0.62;
-    this.ageInMartianYears = inputtedAge * 1.88;
-    this.ageInJovianYears = inputtedAge * 11.86;
+  }
+ ageInSeconds() {
+    return this.age * 31536000;
   }
 
+ getDifference(startDate, endDate) {
+    return endDate.getTime() - startDate.getTime();
+  }
+
+ ageInMerurianYears() {
+   return this.age * 0.24;
+ }
+
+ ageInVenusianYears() {
+   return this.age * 0.62;
+ }
+
+ ageInMartianYears() {
+   return this.age * 1.88;
+ }
+
+ ageInJovianYears() {
+   return this.age * 11.86;
+ }
 }
