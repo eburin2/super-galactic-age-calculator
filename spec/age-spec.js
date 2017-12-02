@@ -2,6 +2,8 @@ import { Age } from "./../js/age.js";
 
 describe('Age', function(){
   let inputtedAge;
+  let startDate;
+  let endDate;
 
   // beforeEach(function() {
   //   // set up before each test.
@@ -14,9 +16,9 @@ describe('Age', function(){
 
   it('should convert the time between two dates into seconds', function() {
       inputtedAge = new Age(36);
-      startDate = new Date("2017-11-17");
-      endDate = new Date("2017-11-24");
-    expect(inputtedAge.getDifference(startDate, endDate)).toEqual(604800);
+      startDate = new Date("2017-11-24");
+      endDate = new Date("2017-11-25");
+    expect(inputtedAge.getDifference(startDate, endDate)).toEqual(86400);
   })
 
   it('should calculate your age into Mercurian years', function(){

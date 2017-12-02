@@ -7,7 +7,7 @@ export class Age {
   }
 
  getDifference(startDate, endDate) {
-    return endDate.getTime() - startDate.getTime();
+    return (endDate.getTime() - startDate.getTime())/1000;
   }
 
  ageInMerurianYears() {
