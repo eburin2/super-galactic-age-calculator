@@ -4,7 +4,7 @@ export class Age {
   }
 
 
-  ageInSeconds(inputtedAge) {
+  ageInSeconds() {
     return this.age * 31536000;
   }
 
@@ -12,29 +12,28 @@ export class Age {
     return (endDate.getTime() - startDate.getTime())/1000;
   }
 
-  ageInMerurianYears(inputtedAge) {
+  ageInMerurianYears() {
    return this.age * 0.24;
   }
 
-  ageInVenusianYears(inputtedAge) {
+  ageInVenusianYears() {
    return this.age * 0.62;
   }
 
-  ageInMartianYears(inputtedAge) {
+  ageInMartianYears() {
    return this.age * 1.88;
   }
 
-  ageInJovianYears(inputtedAge) {
+  ageInJovianYears() {
    return this.age * 11.86;
   }
 
 
-  //calculate planetary excess of life expectancy
   lifeExpectancy() {
     if (this.age > 79) {
-      return "You're no spring chicken, but you've got grit!";
+      return "Well... You beat the odds you old battle axe, way to go CHAMP!";
     } else {
-      return `Doesn't look like you'll pushing up the daisies for another ${79 - this.age} years.`;
+      return `There is this unmistakable premonition that you won't be pushing up the daisies for another ${79 - this.age} years.`;
     }
   }
 }

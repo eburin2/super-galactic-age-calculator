@@ -41,4 +41,7 @@ describe('Age', function(){
     expect(inputtedAge.ageInJovianYears()).toEqual(426.96);
   })
 
+  it('should calculate how many years a user has left to live on Earth', function() {
+    expect(inputtedAge.lifeExpectancy()).toEqual(`There is this unmistakable premonition that you won't be pushing up the daisies for another ${79 - inputtedAge.age} years.`);
+  })
 })
