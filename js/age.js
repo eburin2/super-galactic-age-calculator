@@ -27,4 +27,14 @@ export class Age {
   ageInJovianYears(inputtedAge) {
    return this.age * 11.86;
   }
+
+
+  //calculate planetary excess of life expectancy
+  lifeExpectancy() {
+    if (this.age > 79) {
+      return "You're no spring chicken, but you've got grit!";
+    } else {
+      return `Doesn't look like you'll pushing up the daisies for another ${79 - this.age} years.`;
+    }
   }
+}
