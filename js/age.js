@@ -3,6 +3,7 @@ export class Age {
     this.age = inputtedAge;
   }
 
+
   ageInSeconds(inputtedAge) {
     return this.age * 31536000;
   }
