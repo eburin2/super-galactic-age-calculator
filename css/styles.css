@@ -19,11 +19,15 @@ body {
 
 h2 {
   color: white;
+  font-size: 60px;
+  color: red;
+  font-weight: 700;
 }
 
 button {
   float: right;
   margin-right: 860px;
+
 }
 
 #date {
