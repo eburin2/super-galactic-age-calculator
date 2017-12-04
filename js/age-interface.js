@@ -2,20 +2,19 @@ import { Age } from './../js/age.js';
 
 $(document).ready(function(){
   $("form").submit(function(event){
-    $("")
     event.preventDefault();
 
     let earthYears = $("#age-input").val();
     let age = new Age(earthYears);
 
 
-
     let ageInSeconds = age.ageInSeconds(earthYears);
-    let mercurianAge = age.ageInMerurianYears(earthYears);
+    let mercurianAge = age.ageInMercurianYears(earthYears);
     let venusianAge = age.ageInVenusianYears(earthYears);
     let martianAge = age.ageInMartianYears(earthYears);
     let jovianAge = age.ageInJovianYears(earthYears);
     let lifeExpectancy = age.lifeExpectancy(earthYears);
+
 
 
     $("#output").show();
