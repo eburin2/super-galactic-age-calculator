@@ -12,7 +12,7 @@ export class Age {
     return (endDate.getTime() - startDate.getTime())/1000;
   }
 
-  ageInMerurianYears() {
+  ageInMercurianYears() {
    return this.age * 0.24;
   }
 
